@@ -32,5 +32,5 @@ void print_array (int *array)
 */
 int partition (int *array, int first, int last)
 {
-    
+    int i, j;
 }
