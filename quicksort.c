@@ -60,3 +60,10 @@ int partition (int *array, int first, int last)
     return j;
 }
 
+/*
+ *  Quicksort function 
+*/
+void quicksort (int *array, int first, int last)
+{
+
+}
