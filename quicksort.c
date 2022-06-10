@@ -15,11 +15,11 @@ void swap (int *a, int *b)
 /*
  *  Print array function 
 */
-void print_array (int *array)
+void print_array (int *array, int lenght)
 {
     int i;
     printf("Array: ");
-    for (i = 0; i < LENGHT; i++)
+    for (i = 0; i < lenght; i++)
     {
         printf("%d ", array[i]);
     }
@@ -59,3 +59,4 @@ int partition (int *array, int first, int last)
 
     return j;
 }
+
