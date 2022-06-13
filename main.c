@@ -4,15 +4,15 @@
 
 int main(int argc, char const *argv[])
 {
-    int array[LENGHT]={5,3,2,6,4,1,3,7};
-    int pointer_subarray;
-    
-    print_array(array);
+    int array[LENGHT]={1,55,22,66,44,11,3,2};
+    int pointer_subarray,altro;
 
-    pointer_subarray = partition(array,0,(LENGHT-1));
-    print_array(array);
+    printf("Array to ordered:\n");
+    print_array(array, LENGHT);
 
-
+    printf("Array after Quicksort:\n");
+    quicksort(array, 0, (LENGHT-1));
+    print_array(array, LENGHT);
 
     return 0;
 }
